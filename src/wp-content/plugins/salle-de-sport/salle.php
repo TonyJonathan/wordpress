@@ -78,7 +78,7 @@ add_action('widgets_init', 'enregistrer_salle_de_sport_widget');
 
 function afficher_tableau_salles_de_sport() {
     $args = array(
-        'post_type' => 'salle_de_sport', // Le type de publication personnalisé que vous avez enregistré
+        'post_type' => 'salle_de_sport', // Le type de publication personnalisé enregistré
         'posts_per_page' => -1, // Pour afficher toutes les salles
     );
 
